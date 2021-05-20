@@ -74,6 +74,7 @@ class Control extends \WP_Customize_Control {
 		data.input_id = 'input-' + String( Math.random() );
 		#>
 			<span class="customize-control-title"><label for="{{ data.input_id }}">{{ data.label }}</label></span>
+			<span class="customize-control-description"><label for="{{ data.input_id }}">{{ data.description }}</label></span>
 		<# if ( data.attachments ) { #>
 			<div class="image-gallery-attachments">
 				<# _.each( data.attachments, function( attachment ) { #>
