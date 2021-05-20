@@ -12,11 +12,12 @@ Displays icons of the images in Customizer.
 
 Requires PHP 5.3+
 
+Add functions to theme `function.php`
 
 ```PHP
 /**
  * Customize Image Gallery Control
- * <?php the_featured_image_gallery(); ?>
+ *
  * see https://make.xwp.co/2016/08/12/image-gallery-control-for-the-customizer/
  */
 function the_featured_image_gallery( $atts = array() ) {
@@ -27,7 +28,13 @@ function the_featured_image_gallery( $atts = array() ) {
         echo gallery_shortcode( $atts );
     }
 }
+```
 
+Usage `<?php the_featured_image_gallery(); ?>`
+
+Shortcode functionality, add to theme `function.php`
+
+```PHP
 /**
  * Customize Image Gallery Control
  * Shorcode [featured_image_gallery]
@@ -44,3 +51,5 @@ function featured_image_gallery_shortcode( $atts ) {
 add_shortcode( 'featured_image_gallery', 'featured_image_gallery_shortcode' );
 
 ```
+
+Usage `[featured_image_gallery]`
