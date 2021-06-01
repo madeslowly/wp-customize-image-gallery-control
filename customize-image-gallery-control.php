@@ -6,7 +6,7 @@
  * Author: XWP
  * Plugin URI: https://github.com/xwp/wp-customize-image-gallery-control
  * Text Domain: customize-image-gallery-control
- *
+ * See https://make.xwp.co/2016/08/12/image-gallery-control-for-the-customizer/
  * @package CustomizeImageGalleryControl
  */
 

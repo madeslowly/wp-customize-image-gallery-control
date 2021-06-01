@@ -2,7 +2,9 @@
 
 Forked from [xwp](https://github.com/xwp/wp-customize-image-gallery-control)
 
-Using in [Slow Wheels WP theme](https://github.com/madeslowly/slow-wheels) to select images for footer sponsors.
+See [usage](https://make.xwp.co/2016/08/12/image-gallery-control-for-the-customizer/)
+
+Using in [Slow Wheels WP theme](https://github.com/madeslowly/slow-wheels) to select images for footer logos.
 
 Adds Customizer support for image gallery control type.
 
